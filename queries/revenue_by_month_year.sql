@@ -1,0 +1,6 @@
+-- TODO: Esta consulta devolverá una tabla con los ingresos por mes y año.
+-- Tendrá varias columnas: month_no, con los números de mes del 01 al 12;
+-- month, con las primeras 3 letras de cada mes (ej. Ene, Feb);
+-- Year2016, con los ingresos por mes de 2016 (0.00 si no existe);
+-- Year2017, con los ingresos por mes de 2017 (0.00 si no existe); y
+-- Year2018, con los ingresos por mes de 2018 (0.00 si no existe).
