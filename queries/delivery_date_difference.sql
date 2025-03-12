@@ -17,4 +17,5 @@ JOIN olist_customers c ON o.customer_id = c.customer_id
 WHERE o.order_status = 'delivered' 
     AND o.order_delivered_customer_date IS NOT NULL
 GROUP BY c.customer_state
-ORDER BY Diferencia_Entrega DESC;
+ORDER BY Diferencia_Entrega ASC;
+
